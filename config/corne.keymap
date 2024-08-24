@@ -27,9 +27,9 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |     |     |     |     |     |   |  7  |  8  |  9  |  0  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |  4  |  5  |  6  |  .  |  UP   |      |
-// | SHFT |     |     |     |     |     |   |  1  |  2  |  3  | LFT | DWN | RGT |
+// |  TAB |     |     |     |     |     |   |  7  |  8  |  9  |  0  |     | BKSP |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |  4  |  5  |  6  |  .  |  UP |      |
+// | SHFT |     |     |     |     |     |   |  1  |  2  |  3  | LFT | DWN | RGT  |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &trans   &trans    &trans &trans &trans                            &kp N7   &kp N8   &kp N9 &kp N0    &trans   &kp BSPC
