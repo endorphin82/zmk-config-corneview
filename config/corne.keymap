@@ -32,7 +32,7 @@
 // | SHFT |     |     |     |     |     |   |  1  |  2  |  3  | LFT | DWN | RGT |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &trans   &trans    &trans &trans &trans                            &kp N7   &kp N8   &kp N9 &kp N0    &kp N0   &kp BSPC
+   &kp TAB    &trans   &trans    &trans &trans &trans                            &kp N7   &kp N8   &kp N9 &kp N0    &trans   &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp N4   &kp N5   &kp N6 &kp RET   &kp UP   &trans
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &kp N1   &kp N2   &kp N3 &kp LEFT  &kp DOWN &kp RIGHT
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
