@@ -19,6 +19,7 @@
         combo_lower_raise {
             timeout-ms = <50>;
             key-positions = <37 40>;
+	    layers = <-1>;
             bindings = <&mo 3>;
         };
      };
