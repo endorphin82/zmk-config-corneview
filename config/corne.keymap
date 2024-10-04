@@ -30,7 +30,7 @@
 	    combo_lower_raise {
             timeout-ms = <200>;
             key-positions = <37 40>;
-            bindings = <&mo 3>;
+            bindings = <&to 3>;
         };
      };
 
