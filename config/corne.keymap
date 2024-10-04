@@ -12,6 +12,16 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/rgb.h>
 
+    combos {
+        compatible = "zmk,combos";
+		/* ====== Default Layer ====== */
+        combo_lower_raise {
+            timeout-ms = <50>;
+            key-positions = <37 40>;
+		layers = <lower_raise>;
+            bindings = <&mo 3>;
+        };
+}
 
 / {
         keymap {
