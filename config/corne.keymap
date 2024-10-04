@@ -21,10 +21,8 @@
             key-positions = <37 40>;
             bindings = <&mo 3>;
         };
-     }
-}
+     };
 
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
