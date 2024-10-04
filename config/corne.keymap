@@ -90,7 +90,7 @@
 // |BL_INC|BL_DEC|     |     |     |     |   |&rgb_ug RGB_TOG|RGB_COLOR|     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &bl BL_SET 50 &kp X &kp X &kp X &trans &trans      &ext_power EP_ON &ext_power EP_OFF &trans &trans &trans &trans &trans 
+   &bl BL_SET 50 &kp X &kp X &kp X &trans &trans      &ext_power EP_ON &ext_power EP_OFF &trans &trans &trans &trans
    &bl BL_TOG &trans &trans &trans &trans &trans         &trans &trans &trans &trans &trans &trans 
    &bl BL_INC &bl BL_DEC &trans &trans &trans &trans     &rgb_ug RGB_TOG &rgb_ug RGB_COLOR_HSB(128,100,100) &trans &trans &trans &trans 
                 &kp LGUI &trans   &kp SPACE           &kp RET   &trans    &kp RALT
