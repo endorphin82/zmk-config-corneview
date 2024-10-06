@@ -87,7 +87,7 @@
 // -----------------------------------------------------------------------------------------
 // |BL_OFF|RGB_HUI|RGB_HUD |RGB_SAI| RGB_SAD|RGB_BRI|   |C_MUTE|C_VOL_DN|C_VOL_UP|C_BRI_DN|C_BRI_UP|PSCRN|
 // |BL_ON |RGB_BRD|RGB_SPI |RGB_SPD| RGB_EFF|RGB_EFR|   |  F13 |  F14   |  F15   |  F16   |  F17   | F18 |
-// |BL_INC|BL_DEC |BL_CYCLE|RGB_TOG| EP_ON  |EP_OFF |   |  F19 |  F20   |  F21   |  F22   |  F23   | F24  |
+// |BL_INC|BL_DEC |BL_CYCLE|RGB_TOG| EP_ON  |EP_OFF |   |  F19 |  F20   |  F21   |  F22   |  F23   | F24 |
 //                                | GUI |     | SPC |   | ENT  |        |   ALT  |
                         bindings = <
    &bl BL_OFF &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAI &rgb_ug RGB_SAD &rgb_ug RGB_BRI      &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP &kp PSCRN
