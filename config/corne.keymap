@@ -39,7 +39,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                display-name = "Base";
+                display-name = "base";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -53,7 +53,7 @@
                         >;
                 };
                 lower_layer {
-                display-name = "Lower";
+                display-name = "LoWer";
 // -----------------------------------------------------------------------------------------
 // |  TAB |     |     |     |     |     |   |  7  |  8  |  9  |  0  |     | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |  4  |  5  |  6  |  .  |  UP |      |
@@ -68,7 +68,7 @@
                 };
 
                 raise_layer {
-                display-name = "Raise";
+                display-name = "RaiSe";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // |  F1  | F2  | F3  | F4  | F5  | F6  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -82,7 +82,7 @@
                         >;
                 };
                 lower_raise {
-                display-name = "LowerRise";
+                display-name = "Lower+Rise";
 // &mo 3
 // -----------------------------------------------------------------------------------------
 // |BL_OFF|RGB_HUI|RGB_HUD |RGB_SAI| RGB_SAD|RGB_BRI|   |C_MUTE|C_VOL_DN|C_VOL_UP|C_BRI_DN|C_BRI_UP|PSCRN|
