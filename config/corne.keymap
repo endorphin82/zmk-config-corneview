@@ -82,7 +82,7 @@
                         >;
                 };
                 lower_raise {
-                display-name = "Lower+Rise";
+                display-name = "Lo + Ri";
 // &mo 3
 // -----------------------------------------------------------------------------------------
 // |BL_OFF|RGB_HUI|RGB_HUD |RGB_SAI| RGB_SAD|RGB_BRI|   |C_MUTE|C_VOL_DN|C_VOL_UP|C_BRI_DN|C_BRI_UP|PSCRN|
