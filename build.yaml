@@ -21,7 +21,7 @@ include:
   - board: nice_nano_v2
     shield: corne_left
     # nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Nice_Corne_View\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Nice_Corne_View_Lp\"
     artifact-name: nice_corne_left
   - board: nice_nano_v2
     shield: corne_right
