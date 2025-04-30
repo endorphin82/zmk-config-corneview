@@ -34,17 +34,6 @@
 	    #slow-release;
         };
      };
-    behaviors {
-        shift_once: shift_once {
-            compatible = "zmk,behavior-mod-momentary";
-            label = "OneShot Shift";
-            #binding-cells = <0>;
-            bindings = <&kp LSFT>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            flavor = "oneshot";
-        };
-    };
 
         keymap {
                 compatible = "zmk,keymap";
@@ -59,7 +48,7 @@
   bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &shift_once &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+   &os &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
                 };
